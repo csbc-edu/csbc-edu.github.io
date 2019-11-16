@@ -5,6 +5,7 @@ footer {
     z-index: 5;
     position: absolute;
     flex-direction: row;
+    bottom: 0;
 }
 
 .footer-container {
