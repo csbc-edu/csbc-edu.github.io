@@ -4,9 +4,12 @@ footer {
     background: #181818;
     z-index: 5;
     flex-direction: row;
+<<<<<<< HEAD
     bottom: 0;
     position: relative;
     overflow: hidden;
+=======
+>>>>>>> parent of 6a4d390... footer style update
 }
 
 .footer-container {
