@@ -4,7 +4,7 @@
     z-index: -5;
     background: url("../../images/menu/background.png") no-repeat center #252628;
     background-size: cover;
-
+    background-position: center;
 }
 
 .hero-wrapper {
@@ -79,14 +79,12 @@
 
 /*Адаптация сайта под разные размеры экрана*/
 
-@media (max-width: 1000px) {
+
+@media (min-width: 667px) {
     .hero-wrapper {
         padding: 0;
     }
-}
 
-
-@media (max-width: 1520px) {
     .section-hero {
         height: 160vh;
     }
@@ -98,9 +96,29 @@
     .hero-slider {
         padding: 0;
     }
-
 }
 
+@media (max-width: 1097px) {
+    .hero-wrapper {
+        padding: 0;
+    }
+
+    .section-hero {
+        height: 320vh;
+    }
+
+    header {
+        height: 320vh;
+    }
+
+    .hero-slider {
+        padding: 0;
+    }
+}
+
+
+
+/* one column */
 @media (max-width: 767px) {
     .hero-container {
         padding: 0;
