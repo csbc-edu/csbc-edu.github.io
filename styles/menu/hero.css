@@ -4,7 +4,7 @@
     z-index: -5;
     background: url("../../images/menu/background.png") no-repeat center #252628;
     background-size: cover;
-    position: relative;
+
 }
 
 .hero-wrapper {
@@ -33,7 +33,7 @@
 
 .hero-slider-item {
     width: 240px;
-    height: 25rem;
+    height: 370px;
     margin: 20px 10px;
     padding: 40px 30px;
     text-decoration: none;
