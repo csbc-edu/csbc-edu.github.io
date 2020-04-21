@@ -5,7 +5,7 @@ footer {
     z-index: 5;
     flex-direction: row;
     bottom: 0;
-    position: relative;
+    position: inherit;
     overflow: hidden;
 }
 
